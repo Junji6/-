@@ -75,5 +75,4 @@ with open('mpg_model','wb')as file:
     pickle.dump(model,file)
 print("モデルが保存されました")
 
-#ベストパラメータでの推論
-predictions = model.predict(scaled_test_x)
+
